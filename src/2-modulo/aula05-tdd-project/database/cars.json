@@ -1,0 +1,16 @@
+[
+    {
+        "id": "596280b3-6662-4d1b-a327-566b21da52f6",
+        "name": "Prius",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "82cf625f-4666-40ce-9216-74bda1abb63d",
+        "name": "CTS",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    }
+]
