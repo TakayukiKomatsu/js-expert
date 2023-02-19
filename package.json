@@ -6,7 +6,7 @@
     "scripts": {
         "test": "npx mocha -w --parallel ./src/2-modulo/aula04-coverage-e2e/*.test.js",
         "test:cov": "npx nyc npx mocha --parallel ./src/2-modulo/aula04-coverage-e2e/*.test.js",
-        "seed": "node ./src/2-modulo/aula05-tdd-project/seed"
+        "seed": "node src/2-modulo/aula05-tdd-project-pt01/seed"
     },
     "keywords": [],
     "author": "",
