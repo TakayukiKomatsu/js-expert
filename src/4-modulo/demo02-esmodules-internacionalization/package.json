@@ -1,0 +1,28 @@
+{
+    "name": "demo02-esmodules-internacionalization",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx nodemon --ignore database.json --exec node src/index.js",
+        "test": "npx mocha -w --parallel ./test/**/*.test.js",
+        "test:cov": "npx nyc npx mocha -r reify --parallel ./test/**/*.test.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "4",
+        "chalk-table": "1",
+        "draftlog": "1"
+    },
+    "devDependencies": {
+        "chai": "4",
+        "mocha": "8",
+        "nodemon": "^2.0.20",
+        "nyc": "15",
+        "reify": "^0.20.12",
+        "sinon": "9"
+    }
+}

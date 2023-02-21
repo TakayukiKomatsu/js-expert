@@ -137,3 +137,7 @@ dist
 
 # pnpm lock file
 src/2-modulo/pnpm-lock.yaml
+
+**/coverage
+**/.nyc_output
+.reify-cache
