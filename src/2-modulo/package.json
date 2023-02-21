@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "npx mocha -w --parallel ./src/2-modulo/aula05-tdd-project-pt03/test/**/*.test.js",
-        "test:cov": "npx nyc npx mocha --parallel ./src/2-modulo/aula05-tdd-project-pt03/test/**/*.test.js",
-        "seed": "node src/2-modulo/aula05-tdd-project-pt02/seed"
+        "test": "npx mocha -w --parallel ./aula05-tdd-project-pt03/test/**/*.test.js",
+        "test:cov": "npx nyc npx mocha --parallel ./aula05-tdd-project-pt03/test/**/*.test.js",
+        "seed": "node aula05-tdd-project-pt02/seed"
     },
     "keywords": [],
     "author": "",

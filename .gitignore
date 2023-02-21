@@ -26,11 +26,11 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
+src/2-modulo/coverage
 *.lcov
 
 # nyc test coverage
-.nyc_output
+src/2-modulo/.nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -136,4 +136,4 @@ dist
 .pnp.*
 
 # pnpm lock file
-pnpm-lock.yaml
+src/2-modulo/pnpm-lock.yaml

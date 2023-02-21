@@ -9,7 +9,7 @@
         "text"
     ],
     "exclude": [
-        "./src/2-modulo/aula05-tdd-project-pt03/src/repository/base/*.js",
+        "./**/src/repository/base/index.js",
         "test/"
     ]
 }
